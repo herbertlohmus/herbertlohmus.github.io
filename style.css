@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  background-image: url(Images/cool-background.png);
+  color: burlywood;
+  line-height: 1.6;
+}
+
+#container {
+  width: 80%;
+}
+
+#container {
+  display: flex;
+}
+
+img {
+  width: 200px;
+}
+header {
+  background: #570545;
+  height: 50px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 80px;
+  padding: 10px;
+
+  position: relative;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: red;
+}
+
+table.table {
+  width: 90%;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #570545;
+}
+
+td {
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid salmon;
+
+  border-collapse: collapse;
+
+  background-color: seashell;
+}
+
+a:link {
+  text-decoration: none;
+  box-shadow: none;
+  color: burlywood;
+}
+a:visited {
+  text-decoration: none;
+  box-shadow: none;
+  color: burlywood;
+}
+a:hover {
+  color: blueviolet;
+}
+footer {
+  padding: 10px;
+}
+.landing {
+  padding: 10px;
+  text-align: cent er;
+}
+img.moto {
+  width: 50%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.aboutme {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
