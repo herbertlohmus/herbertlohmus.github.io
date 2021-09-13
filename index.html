@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Google Tag Manager -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-K7REY9ERJ3"
+    ></script>
     <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-W9TDRP4");
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-K7REY9ERJ3");
     </script>
-    <!-- End Google Tag Manager -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,14 +22,14 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-W9TDRP4"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-      ></iframe
-    ></noscript>
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/et_EE/sdk.js#xfbml=1&version=v11.0"
+      nonce="evM0fBA4"
+    ></script>
     <header>
       <div class="container">
         <nav>
@@ -51,8 +51,27 @@
       <p>
         This is a small webpage that I've created in order to list my different
         interests, writings and hobbies. <br />
-        Feel free to click on the different links to get to know me better:)
+        Feel free to click on the different links to get to know
+        <span style="color: lightcoral">me</span> better:)
       </p>
+    </div>
+    <div class="landing">
+      <p>
+        Although this page was created for an assigment, I am hoping to use this
+        as portfolio, so enjoy.
+      </p>
+    </div>
+    <div id="otherstudents">
+       Also take a look at other students work</span>
+      <ul>
+        <li>
+          <a href="https://dienalex.github.io/DienAlex/">
+            Alex's website about cats and dogs</a
+          
+          >
+        </li>
+        <li><a href="https://hugomatousek.github.io/index.html">Hugo is also working on something cool</a></li>
+      </ul>
     </div>
     <footer>
       <a href="https://github.com/mikeizbicki/cmc-csci040"
@@ -61,6 +80,16 @@
       <a href="https://izbicki.me"
         ><img src="Images/Mike.jpeg" alt="Mike's webpage"
       /></a>
+      <div
+        class="fb-like"
+        data-href="https://herbertlohmus.github.io/index.html"
+        data-width=""
+        data-layout="button_count"
+        data-action="like"
+        data-size="large"
+        data-share="true"
+      ></div>
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commonsi litsents" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />See teos on antud Creative Commonsi litsentsi "<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Autorile viitamine 4.0 Rahvusvaheline</a>" alla.
     </footer>
   </body>
 </html>
