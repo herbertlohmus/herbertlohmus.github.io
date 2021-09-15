@@ -122,3 +122,27 @@ img.wfp {
   width: 100%;
   length: 150px;
 }
+
+.landing {
+  font-style: italic;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+.gov + h2 {
+  margin-left: 30px;
+}
+
+.finance h2 {
+  margin-left: 30px;
+}
+
+.unpublished h2 {
+  margin-left: 30px;
+}
+.cv {
+  margin-left: 40%;
+  margin-right: 40%;
+}
